@@ -7,7 +7,7 @@ Library    SeleniumLibrary
 
 *** Variables ***
 ${user_name}    rahulshettyacademy
-${invalid_pass}    12345678
+${invalid_pass}    1234567
 ${valid_pass}    learning
 ${url}    https://rahulshettyacademy.com/loginpagePractise/
 

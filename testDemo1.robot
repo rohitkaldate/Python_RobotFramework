@@ -3,7 +3,7 @@ Documentation    To Validate the Login form
 Library    SeleniumLibrary
 
 *** Variables ***
-${alert_locator}    css:.alert-danger    ##This variable is global variable
+${alert_locator}    css:.alert-danger    #This variable is global variable
 
 *** Test Cases ***
 Validate Successful Login
