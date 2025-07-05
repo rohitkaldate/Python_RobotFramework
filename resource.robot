@@ -22,6 +22,15 @@ Fill the Login Form
     Input Password    id:password    ${password}
     Click Button    id:signInBtn
 
+Fill the login Details and select User option
+    Input Text    id:username    ${username}
+    Input Password    id:password    ${valid_pass}
+    Click Element    //input[@value='user']
+    Wait Until Element Is Visible    css:.modal-body
+    Click Element    id:okayBtn
+    Select From List By Value    css:select.form-control    teach
+    Select Checkbox    id:terms
+    Checkbox Should Be Selected     id:terms
 
 Close Browser Used
     Close Browser

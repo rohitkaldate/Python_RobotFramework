@@ -6,7 +6,7 @@ Test Teardown    Close Browser Used
 Resource    resource.robot
 
 *** Variables ***
-${alert_locator}    css:.alert-danger    #This variable is global variable
+${alert_locator}    css:.alert-danger
 ${pass}    css:.nav-link
 ${add}    css:.btn-info
 
